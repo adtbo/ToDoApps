@@ -4,7 +4,8 @@
   "description": "Simple To Do BE with node JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "heroku": "^7.42.1",
     "mongoose": "^5.9.20",
     "swagger-jsdoc": "^4.0.0",
     "swagger-ui-express": "^4.1.4"

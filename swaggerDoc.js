@@ -10,7 +10,7 @@ const swaggerOptions = {
         contact: {
           name: "Developer"
         },
-        servers: ["http://localhost:3000"]
+        servers: ["/"]
       },
     },
     apis: ['routes/todo.js']
